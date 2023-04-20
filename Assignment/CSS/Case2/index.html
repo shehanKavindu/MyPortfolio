@@ -2,116 +2,159 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Case Two</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="/assest/css/normalize.css">
+    <link rel="stylesheet" href="../../../Acess/fontawesome-free-6.4.0-web/css/all.css">    <link rel="stylesheet" href="../../assest/frontAwsome/fontawesome-free-6.4.0-web/css/brands.css">
+    <link rel="stylesheet" href="../../assest/frontAwsome/fontawesome-free-6.4.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="../../assest/frontAwsome/fontawesome-free-6.4.0-web/css/regular.css">
+    <link rel="stylesheet" href="../../assest/frontAwsome/fontawesome-free-6.4.0-web/css/solid.css">
+    <link rel="stylesheet" href="../../assest/frontAwsome/fontawesome-free-6.4.0-web/css/svg-with-js.css">
     <style>
-        header>img{
-            height: 50px;
-            width: 75px;
-        }
-        body>header>nav{
-            position: absolute;
-            right: 0;
-            top: 0;
-            margin: auto;
-        }
         header{
+            background:white;
             border: 1px solid black;
+            height:50px;
             position: relative;
-            background-color: white;
-            color: white;
-            height: 60px;
-            padding: 0 20px;
+            right: 0px;
+            left:0px;
         }
-        section{
-            border: 1px solid black;
-            position: relative;
+        *{
+            margin: 0px;
+            padding: 0px;
         }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 100%;
+        .navBar{
+            /* background:white;
+             border: 1px solid black;
+             height:50px;
+             position: absolute;
+             right: 0px;
+             left:0px;*/
         }
-
-        ul {
-            list-style: none;
+        .nav{
+            float:right ;
+            list-style-type: none;
             margin: 0;
             padding: 0;
-            display: flex;
-        }
+            padding-top: 15px
 
-        li {
-            margin: 0 10px;
         }
+        .nav>li{
+            display: inline;
+            margin-right: 20px;
 
-        a {
-            color: black;
-            text-decoration: none;
         }
+        /*   section>section{
+               position: absolute;
+               background-color: #0b7285;
+               width: 100px;
+               left: 0px;
+               top: 0px;
+               bottom: 0px;
+           }
+       */
         footer{
-            border: 1px solid black;
-            background: darkgrey;
+            height: 65px;
+            background-color: gray;
+
+        }
+        footer>p{
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            padding-top:10px;
+        }
+        body>main{
+            position: relative;
+
+
+        }
+        body>main>nav{
+            width: 200px;
+            background-color: #9c36b5;
+            color: white;
+            position: absolute;
+            top: 0px;
+            bottom:0px;
+        }
+        body>main>nav>ul{
+            border-top-width: 10px;
+            margin-left: 50px;
+            margin-top: 20px;
+
+
+        }
+        body>main>nav>ul>li{
+            list-style-type: none;
+            padding-top: 20px;
+
         }
     </style>
+
+
+
 </head>
 <body>
 <header>
-    <img src="index.html.IJSE Logo.png"> alt="logo">
-    <img> src="index.html.IJSE Logo.pg" > alt="logo">
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#">About Us</a></li>
-
+    <nav class="navBar">
+        <img src="../../../Acess/IJSE%20Logo.png" width="100" height="50">
+        <ul class="nav">
+            <li><i class="fa-solid fa-house"></i>home</li>
+            <li><i class="fa-brands fa-servicestack"></i>Service</li>
+            <li><i class="fa-solid fa-address-book"></i>Contacts</li>
+            <li><i class="fa-solid fa-address-card"></i>About Us</li>
         </ul>
     </nav>
+
 </header>
 <main>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#">About Us</a></li>
-        </ul>
-    </nav>
+    <nav> <ul>
+        <li>home</li>
+        <li>Service</li>
+        <li>Contact</li>
+        <li>About Us</li>
+    </ul></nav>
+
+
     <section>
-        <i class="fas fa-cloud"></i>
-        <section>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate amet molestias nam est dolor reprehenderit
-            odio voluptatibus adipisci rem tempora nemo doloremque soluta, sint, tempore porro nostrum, ratione rerum?</p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate amet molestias nam est dolor
-            reprehenderit odio voluptatibus adipisci rem tempora nemo doloremque soluta, sint, tempore porro nostrum,
-            ratione rerum?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate amet molestias nam est dolor
-            reprehenderit odio voluptatibus adipisci rem tempora nemo doloremque soluta, sint, tempore porro nostrum,
-            ratione rerum?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate amet molestias nam est dolor
-            reprehenderit odio voluptatibus adipisci rem tempora nemo doloremque soluta, sint, tempore porro nostrum,
-            ratione rerum?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate amet molestias nam est dolor
-            reprehenderit odio voluptatibus adipisci rem tempora nemo doloremque soluta, sint, tempore porro nostrum,
-            ratione rerkaslfafegi?
-        </p>
+        <!--purple-->
+        <section></section>
+        <img src="../../../Acess/gmail.Logo.jfif" width="200px">
+        <img src="../../../Acess/gmail.Logo.jfif" width="200px">
+        <img src="../../../Acess/gmail.Logo.jfif" width="200px">
+        <img src="../../../Acess/gmail.Logo.jfif" width="200px">
+
+        <!--pharagraph-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et
+            ipsum iure libero molestias necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates
+            voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et
+            ipsum iure libero molestias necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates
+            voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et
+            ipsum iure libero molestias necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates
+            voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et
+            ipsum iure libero molestias necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates
+            voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et
+            ipsum iure libero molestias necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates
+            voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et
+            ipsum iure libero molestias necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates
+            voluptatum.</p>
+
+    </section>
     </section>
 </main>
 <footer>
-    <p>Developed By IJSE </p>
+    <p>Develop By IJSE</p>
 </footer>
-</body>
 
+</body>
 </html>
+
+
+
+
+
+
