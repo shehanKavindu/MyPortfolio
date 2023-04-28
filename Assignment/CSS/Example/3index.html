@@ -2,50 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>test</title>
+
   <style>
     section{
-      border: 2px solid black;
       height: 600px;
+      position: relative;
       display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      flex: 0ch;
+      border: 1px solid black;
     }
+
     section>div{
-      border: 1px solid red;
-      width: 200px;
+      flex-grow: 1;
       height: 200px;
-      flex: 0ch;
+      border: 1px solid red;
+      background: black;
+    }
+
+
+    section>:nth-child(1) {
+      align-self: flex-start;
 
     }
-    body>:nth-child(2)>div{
-        height: 200px;
-        width: 200px;
-        border: 1px solid black;
-        border-radius: 100%;
-        flex: 0ch;
+    section>:nth-child(2){
+      align-self: center;
+
     }
-   section>:nth-child(1){
-      flex-grow: 1;
-   }
+    section>:nth-child(3){
+      align-self: flex-end;
 
-section>:nth-child(1){
-  background: red;
-
-}
- section>:nth-child(1){
-      flex-grow: 1;
-      }
-section>:nth-child(2){
-background: blue;
-}
-section>:nth-child(3){
-   flex-grow: 1;
-}
-section>:nth-child(2){
-background: green;
-
+    }
   </style>
 </head>
 <body>
@@ -54,18 +40,9 @@ background: green;
   <div></div>
   <div></div>
 </section>
-<section>
-  <div>A</div><!-- Flex-items-->
-  <div>B</div> <!-- Flex-items-->
-  <div>C</div><!-- Flex-items-->
-</section>
+
 </body>
 </html>
-
-
-
-
-
 
 
 
