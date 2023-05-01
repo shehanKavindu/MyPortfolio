@@ -1,0 +1,39 @@
+body{
+    background-color: aliceblue;
+}
+header {
+    background: white;
+    box-shadow: 4px 1px 4px 0px #0000005c;
+    position: relative;
+}
+
+header > img {
+    width: 200px;
+    margin: 20px;
+}
+
+header > nav > ul {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+header > nav > ul > li {
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 16px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+header > nav > ul > li > i {
+    color: #e90807;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: #171515;
+}
+ 
