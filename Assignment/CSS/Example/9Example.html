@@ -1,26 +1,32 @@
+<!DOCTYPE html>
+<html>
 <head>
-  <style>
+<style> 
 div {
+  border-radius: 100%;
   width: 100px;
   height: 100px;
-  background-color: red;
-  animation-name: example;
+  background-color: yellowgreen;
+  position: relative;
+  animation-name: kavindu;
   animation-duration: 10s;
 }
 
-@keyframes example {
-  from {background-color:green;}
-  to {background-color: yellow;}
-  from {background-color:black}
-  to {background-color:blue}
+@keyframes kavindu {
+  0%   {background-color:skyblue; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blueviolet; left:200px; top:200px;}
+  75%  {background-color:rebeccapurple; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
 }
 </style>
 </head>
 <body>
 
-<h1>CSS Animation</h1>
+<h1></h1>
 
 <div></div>
+
 
 
 </body>
