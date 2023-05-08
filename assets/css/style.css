@@ -325,131 +325,12 @@ a .page_nav {
     background-size: cover;
 }
 
-/*services section*/
-
-.services .service-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.services .service-list section {
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 20px 25px;
-    margin-bottom: 20px;
-    width: 350px;
-    height: 250px;
-    cursor: pointer;
-}
-
-.services .service-list section:hover {
-    background: #1E272E;
-}
-
-.services .service-list section:hover .services-content {
-    transform: scale(1.03);
-}
-
-.services .service-list section:hover .service-icon {
-    color: rgba(255, 0, 0, 0.84);
-}
-
-.service-icon {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin-bottom: 60px;
-    font-size: 60px;
-    text-align: center;
-    color: #CED6E0;
-}
-
-.services-title {
-    color: rgb(232, 230, 227);
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-}
-
-/*portfolio section  */
-
-.portfolio .projects {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 100px;
-}
-
-.portfolio .assignment {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.portfolio .projects section {
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 20px 25px;
-    margin-bottom: 20px;
-    width: 350px;
-    height: 270px;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.project-icon {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    font-size: 60px;
-    text-align: center;
-    color: #CED6E0;
-}
-
 .project-title, .assignment-title {
     font-size: 20px;
     color: #CED6E0;
     font-weight: 500;
     margin: 10px 0 15px 0;
 }
-
-.portfolio .projects section > p {
-    text-align: center;
-    color: white;
-    font-size: 13px;
-}
-
-.portfolio section:hover {
-    background: #1E272E;
-}
-
-.portfolio section:hover .text {
-    transform: scale(1.03);
-}
-
-.portfolio section:hover .project-title {
-    transform: scale(1.03);
-}
-
-.portfolio section:hover .assignment-title {
-    transform: scale(1.03);
-}
-
-.portfolio section:hover .assignment-image {
-    transform: scale(1.03);
-}
-
-.portfolio .projects section:hover .project-icon {
-    color: rgba(255, 0, 0, 0.84);
-    transform: scale(1.03);
-}
-
 
 
 /*contact section*/
@@ -746,21 +627,7 @@ footer > nav > div {
         align-content: center;
     }
 
-    .services .service-list section {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
 
-    .portfolio .projects section {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
-
-    .portfolio .assignment section {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
-}
 
 @media (max-width: 687px) {
     .about .about-content .right {
@@ -772,21 +639,6 @@ footer > nav > div {
         width: 200px;
     }
 
-    .services .service-list section {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .portfolio .projects section {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .portfolio .assignment section {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
 
 @media (max-width: 910px) {
     .skills-content {
@@ -909,26 +761,6 @@ footer > nav > div {
         height: 200px;
     }
 
-    .services .service-list section {
-        width: 350px;
-        height: 350px;
-    }
-
-    .service-icon {
-        width: 150px;
-        height: 150px;
-        margin-bottom: 100px;
-        font-size: 80px;
-    }
-
-    .services-title {
-        font-size: 26px;
-    }
-
-    .portfolio .projects section {
-        width: 350px;
-        height: 350px;
-    }
 
     .project-icon {
         width: 150px;
@@ -940,19 +772,6 @@ footer > nav > div {
         font-size: 30px;
     }
 
-    .portfolio .projects section > p {
-        font-size: 16px;
-    }
-
-    .portfolio .assignment section {
-        height: 350px;
-    }
-
-    .portfolio .assignment .assignment-image {
-        margin-top: 30px;
-        width: 100%;
-        height: 200px;
-    }
 
     .contact .contact-content .left p {
         font-size: 25px;
