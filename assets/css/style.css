@@ -215,30 +215,8 @@ a .page_nav {
     border-radius: 6px;
 }
 
-.about .about-content .left .contactme {
-    background-color: #0984e3;
-    border: 3px solid #2D98DA;
-    margin-right: 75px;
-}
 
-.about .about-content .left .contactme:hover {
-    background-color: initial;
-    color: #0984e3;
-    transform: scale(1.02);
-}
-
-.about .about-content .left .downloadcv {
-    background-color: #20BF6B;
-    border: 3px solid #68e8a7;
-}
-
-.about .about-content .left .downloadcv:hover {
-    background-color: initial;
-    color: #20BF6B;
-    transform: scale(1.02);
-}
-
-/*skills section*/
+*skills section*/
 
 .skills-content {
     display: grid;
@@ -266,66 +244,41 @@ a .page_nav {
 }
 
 .skills-content .java-icon {
-    background: url("../img/icon/skills-icon/icons8-java-480.png");
+    background: url("../../assets/img/cPlus.png");
     background-size: cover;
 }
 
 .skills-content .mysql-icon {
-    background: url("../img/icon/skills-icon/icons8-mysql-logo-500.png");
+    background: url("../../assets/img/HtmlLogo.png");
     background-size: cover;
 }
 
 .skills-content .html5-icon {
-    background: url("../img/icon/skills-icon/icons8-html-5-480.png");
+    background: url("../../assets/img/java.png");
     background-size: cover;
 }
 
 .skills-content .css3-icon {
-    background: url("../img/icon/skills-icon/icons8-css3-480.png");
+    background: url("../../assets/img/mysqlImage.png");
     background-size: cover;
 }
 
 .skills-content .js-icon {
-    background: url("../img/icon/skills-icon/icons8-javascript-480.png");
+    background: url("../../assets/img/JS.png");
     background-size: cover;
 }
 
 .skills-content .php-icon {
-    background: url("../img/icon/skills-icon/icons8-php-logo-512.png");
+    background: url("../../assets/img/PHYTHON\ lOGO.png");
     background-size: cover;
 }
 
 .skills-content .node-icon {
-    background: url("../img/icon/skills-icon/icons8-nodejs-480.png");
+    background: url("../../assets/img/MYSQLSERVER.png");
     background-size: cover;
 }
 
-.skills-content .python-icon {
-    background: url("../img/icon/skills-icon/icons8-python-480.png");
-    background-size: cover;
-}
-
-.skills-content .react-icon {
-    background: url("../img/icon/skills-icon/icons8-react-480.png");
-    background-size: cover;
-}
-
-.skills-content .linux-icon {
-    background: url("../img/icon/skills-icon/icons8-linux-96.png");
-    background-size: cover;
-}
-
-.skills-content .angular-icon {
-    background: url("../img/icon/skills-icon/icons8-angularjs-480.png");
-    background-size: cover;
-}
-
-.skills-content .spring-icon {
-    background: url("../img/icon/skills-icon/icons8-spring-logo-480.png");
-    background-size: cover;
-}
-
-.project-title, .assignment-title {
+.project-title, .gallary-title {
     font-size: 20px;
     color: #CED6E0;
     font-weight: 500;
@@ -490,24 +443,7 @@ footer > nav > div {
         width: 200px;
     }
 
-    .about .about-content .left .downloadcv {
-        width: 160px;
-        font-size: 14px;
-        height: 35px;
-        font-weight: 800;
-        padding: 5px 30px;
-    }
 
-    .about .about-content .left .contactme {
-        width: 160px;
-        font-size: 14px;
-        height: 35px;
-        font-weight: 800;
-        padding: 5px 30px;
-        margin-left: 0;
-    }
-
-}
 
 @media (max-width: 768px) {
 
@@ -768,7 +704,7 @@ footer > nav > div {
         font-size: 80px;
     }
 
-    .project-title, .assignment-title {
+    .project-title, .gallary-title {
         font-size: 30px;
     }
 
@@ -829,7 +765,7 @@ footer > nav > div {
     }
 
     footer > nav > div {
-        height: 70px;
+        height: 80px;
         font-size: 30px;
     }
 }
