@@ -215,7 +215,6 @@ a .page_nav {
     border-radius: 6px;
 }
 
-
 *skills section*/
 
 .skills-content {
@@ -815,6 +814,7 @@ footer > nav > div {
     footer > nav > div {
         height: 80px;
         font-size: 30px;
+
     }
 }
 
