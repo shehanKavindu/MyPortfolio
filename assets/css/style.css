@@ -173,12 +173,6 @@ a .page_nav {
     font-weight: bold;
 }
 
-.social_media {
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
 /*about section  */
 
 .about-content {
@@ -433,20 +427,6 @@ a .page_nav {
 .contact .right form .button {
     width: 170px;
     height: 50px;
-}
-
-.contact .right form .button button {
-    width: 100%;
-    height: 100%;
-    border: 2px solid #20BF6B;
-    background: #27AE60;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 6px;
-    cursor: pointer;
-    color: #CED6E0;
-    outline: none;
-    padding: 5px;
 }
 
 .contact .right form .button button:hover {
