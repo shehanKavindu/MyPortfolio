@@ -1,25 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events in JS</title>
+    <style>
+
+    </style>
+</head>
 <body>
+<h1 id="content">Institute of Java and Software Engineering</h1>
 
-<h2>JavaScript HTML Events</h2>
-<p>Click the button to display the date.</p>
-
-<button onclick="displayDate()">The time is?</button>
-
+<script src="../../js/SPA/js/jquery-3.6.1.min.js"></script>
 <script>
-function displayDate() {
-  document.getElementById("demo").innerHTML = Date();
-}
+
+    let h1Content = $("#content").text();
+    let count=0;
+
+    setInterval(animateText,50);
+    function animateText(){
+        let content = h1Content.substring(0, count);
+        $("#content").text(content);
+        count++;
+        if(count==h1Content.length){
+            count = 0;
+        }
+    }
+
+    //Events
+    window.addEventListener("mousemove",function (eData) {
+        console.log("mouse",eData.pageX,eData.pageY)
+        innerText.style.position="absolute","pageX";
+    });
+
+
 </script>
-<script>window.addEventListener("mousemove") , function(eData){
-  console.log("Mouse is Moving");
-
-}
-  
-</script>
-
-<p id="demo"></p>
-
 </body>
 </html>
